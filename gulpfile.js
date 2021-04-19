@@ -15,7 +15,7 @@ function sync() {
 function minifyJs() {
   return gulp.src('src/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('dist/js'));
+    .pipe(gulp.dest('dist'));
 }
 
 function minifyCss() {
